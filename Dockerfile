@@ -7,8 +7,17 @@ COPY . /site
 RUN cd /site \
  && /hugo ${hugo_args}
 
-FROM busybox
+
+FROM golang:1.12.3-alpine as httpd
+RUN apk -U add git
+COPY httpd/ /go/src/httpd
+WORKDIR  /go/src/httpd/
+ENV GO111MODULE=on
+RUN go build -v -tags netgo
+
+
+FROM scratch
 COPY --from=builder /site/public /www
-COPY deploy/httpd.conf /etc/httpd.conf
+COPY --from=httpd /go/src/httpd/httpd /httpd
 EXPOSE 80
-ENTRYPOINT ["httpd", "-f", "-v", "-v", "-h", "/www"]
+ENTRYPOINT ["/httpd"]
