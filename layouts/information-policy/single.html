@@ -2,22 +2,26 @@
 <html lang="en">
   <head>
     {{partial "head" .}}
-</head>
+  </head>
   <body class="page">
-      {{partial "home/Banner" .}}
-    <section>
-        {{partial "partners/heroNav" .}}
-    </section>
-{{ with .Site.GetPage "infoPolicy" }}
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h1 class="title">Storj Share Information</h1>
-            <p class="text-center">Last Updated: {{ .Params.lastUpdated }}.</p>
-            <div class="spacer50"></div>
+    {{partial "googletag" .}}
+    <div class="header-blue">
+      {{partial "navbar" .}}
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1 class="title">Storj Share Information</h1>
+              <p class="text-center">Last Updated: {{ .Params.lastUpdated }}.</p>
+              <div class="spacer50"></div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    {{ with .Site.GetPage "infoPolicy" }}
+    <div class="section">
+      <div class="container">
     		<div class="row">
     			<div class="col-xs-12 col-md-8 col-md-push-2">
             {{ .Content }}
@@ -25,7 +29,7 @@
     		</div>
       </div>
     </div>
-{{ end }}
+    {{ end }}
     {{partial "footer" .}}
     {{partial "scripts" .}}
   </body>

@@ -4,9 +4,11 @@
     {{partial "head" .}}
 </head>
   <body class="page presskit">
-      {{partial "home/Banner" .}}
-    {{partial "partners/heroNav" .}}
-    {{partial "press-kit/mainHeading" .}}
+    {{partial "googletag" .}}
+    <div class="header-blue">
+      {{partial "navbar" .}}
+      {{partial "press-kit/mainHeading" .}}
+    </div>
     {{partial "press-kit/logos" .}}
     {{partial "press-kit/symbols" .}}
     {{partial "press-kit/colors" .}}

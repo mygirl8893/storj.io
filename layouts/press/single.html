@@ -4,9 +4,11 @@
     {{partial "head" .}}
   </head>
 <body class="page">
-    {{partial "home/Banner" .}}
-    {{partial "partners/heroNav" .}}
-    {{partial "press/pressHeading" .}}
+    {{partial "googletag" .}}
+    <section class="header-blue">
+      {{partial "navbar" .}}
+      {{partial "press/pressHeading" .}}
+    </section>
     {{partial "press/postMigration" .}}
     {{partial "press/premigration" .}}
     {{partial "footer" .}}

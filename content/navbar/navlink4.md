@@ -1,5 +1,5 @@
 ---
-name : "Support"
-link : "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+name : "Node Operator"
+link : "/storage-node-operator"
 class : "navOption"
 ---

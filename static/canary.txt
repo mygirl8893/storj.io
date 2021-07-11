@@ -1,0 +1,46 @@
+Storj Labs Inc. Warrant Canary
+
+Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
+searches and seizures of data, such as library records.
+
+Some such laws provide for criminal penalties for revealing the warrant, search or seizure, disallowing the
+disclosure of events that would materially affect the users of a service such as Storj Labs Inc.
+
+Storj Labs Inc. and its principals and employees will in fact comply with such warrants and their provisions
+for secrecy.
+
+Storj Labs Inc. will also make available, monthly, a "warrant canary" in the form of a cryptographically signed
+message containing the following:
+
+- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
+  taken place
+
+- a cut and paste headline from a major news source, establishing date
+
+Special note should be taken if these messages ever cease being updated, or are removed from this page.
+
+The current message is here:
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+As of 05/03/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+ Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
+ seek to let the public know it existed.
+ 
+- - The battle for 1042 Cutler Street
+- - Fla. Republicans rushed to curb mail voting. Now some fear it may hurt GOP.
+- - EPA will propose a sharp cut in hydrofluorocarbons, powerful greenhouse gases used for refrigeration
+- - Justice Dept. inquiries prompt hopes for police reform, fears of delays
+- - India’s vaccine shortage to last months, warns top manufacturer
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJgj/Z3AAoJEPQrujgXjffwDTgIAKZODpOUYny/jOMU9j/ZkA89
+uBwQYde9A9glzbdhLIWXOCfkQdyDt0vSJHW+Fd3kvIaiieLOO/4ufGIBfbz1y7Dg
+0Y2+BfI0tdkCxVIxAu5mWMK8/SLDS/vWgh6a95TLxRHn8lJ8j7U5ILB4Wkt7DssE
+nqGg6HE714eeSYBNEaEAwpbUV6NDcG73FaKMP6y8aHX6Te2iNKfxeZBCibUI3yKH
+tcUHJ9c1d9JHyS24UzKvSZHbEb4IZYhemueRXmKhI8YBPlsHCqrqmC7qBpqgZTU9
+DbWNTrT4tWpYuKgA/fCgVFjlHd8/PE1Ofnlay0WoaIwhL5lPuUZdCodCl+LCoHg=
+=DCrz
+-----END PGP SIGNATURE-----

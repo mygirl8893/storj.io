@@ -1,0 +1,45 @@
+<div class="header sno-bg">
+
+  <section>
+  {{with .Site.GetPage "page" "SNOHeroNav"}}
+    {{partial "navbar" .}}
+  </section>
+
+  <div class="container">
+    <div class="jumbotron dashboard-message">
+      <div>
+        <p><img alt="Node Dashboard" src="/img/node-dashboard.png"/><b>Node Dashboard, Now Available</b></p>
+        <p class="hidden-sm hidden-xs"> | {{.Params.dashboardMsg}}</p>
+      </div>
+      <div>
+        <a href="#learnMore-sno">
+          <p>Learn More </p><p class="glyphicon glyphicon-chevron-down"></p>
+        </a>
+      </div>
+    </div>
+    <div class="container no-spacing">
+      <div class="row text-center">
+        <div class="spacer50"></div>
+        <div class="col-xs-12 txt-white">
+          <h1 class="sno-hero-heading">{{.Params.heading}}</h1>
+          <p class="sno-hero-sub-heading">{{.Params.subHeading}}</p>
+          <div class="spacer20"></div>
+          <a href="#learnMore-sno">
+            <p class="mt-5 home-hero-cta">
+              {{.Params.ctaText}}
+            </p>
+            <p class="glyphicon glyphicon-chevron-down"></p>
+          </a>
+        </div>
+      </div>
+      <div class="spacer20"></div>
+      <div class="row text-center">
+        <div class="col-xs-10 col-xs-offset-1">
+          <img class="img-responsive" src="/img/storj-sno-cli-gui-alt2.png" alt="Storage node operator GUI and CLI">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{end}}

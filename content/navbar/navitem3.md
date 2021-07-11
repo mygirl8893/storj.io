@@ -1,6 +1,6 @@
 ---
-link: "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+link : "https://storj.io/blog"
 weight : 4
-title : "Support"
+title : "Blog"
 class : "navitem"
 ---

@@ -1,6 +1,6 @@
 ---
-link : "/code-of-conduct"
+link : "/canary.txt"
 weight : 4
-title : "Code of Conduct"
+title : "Canary"
 class : "firstcolfooter"
 ---

@@ -4,25 +4,16 @@
     {{partial "head" .}}
   </head>
 <body class="home">
-  {{partial "home/Banner" .}}
-  <section class="header header-bg" style="height:100%;">
-      <div class="header-bg"></div>
-  {{partial "home/navbar" .}}
-  {{partial "home/Hero" .}}
-  {{partial "home/howitworks" .}}
+  {{partial "googletag" .}}
+  <section class="header header-bg">
+		  {{partial "navbar" .}}
+		  {{partial "home/Hero" .}}
+      </div>
+  </section>
+  {{partial "home/diskSpace" .}}
+  {{partial "home/introducing" .}}
   {{partial "home/helpingDevs" .}}
-  {{partial "home/becomeASNO" .}}
-  {{partial "home/ospp" .}}
-  {{partial "home/governance" .}}
-  <!-- {{partial "home/freshUpdate" .}}
-  {{partial "home/learnOSP" .}}
-  {{partial "home/Benefits" .}}
-  {{partial "home/Pricing" .}}
-  {{partial "home/UseCases" .}}
-  {{partial "home/StayUpToDate" .}} -->
-  {{partial "home/Milestones" .}}  
-  <!-- {{partial "home/Waitlists" .}}
-  {{partial "home/Partners" .}} -->
+  {{partial "home/osaTransparency" .}}
   {{partial "footer" .}}
   {{partial "scripts" .}}
 </body>

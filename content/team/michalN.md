@@ -1,7 +1,7 @@
 ---
-name : Michal Niewrzal
-title : Software Engineer
-headshot : /img/team/michal.png
+name : Michał Niewrzał
+title : Supervisor
+headshot : /img/team/michal.jpg
 class : engineering
 all : true
 ---
